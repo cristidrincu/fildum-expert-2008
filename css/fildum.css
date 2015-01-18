@@ -1,0 +1,574 @@
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	line-height:18px;
+	font-size:76%;
+	font-family:trebuchet ms,arial,helvetica,sans-serif;
+	
+	background-color:#fff;
+}
+
+.clearFloats {
+	clear:both;
+}
+
+	#containerHeaders {
+		width:100%;
+		height:100%
+	}
+	
+		#headerTop {
+			width:inherit;
+			height:100%;
+			background-color:#0b470b;
+			padding-top:20px;
+			padding-bottom:20px;
+		}
+		
+			#containerLogo {
+				width:810px;
+				margin-left:auto;
+				margin-right:auto;
+			}
+		
+		#containerHeaderMeniu {
+			width:inherit;
+			height:100%;
+			margin-top:2px;
+			background-color:#237f1a;
+			padding-top:20px;
+		}
+		
+			#meniu {
+				width:980px;
+				margin-left:auto;
+				margin-right:auto;
+			}
+			
+				#meniu img {
+					float:left;
+					padding-right:5px;
+				}
+				
+		
+		#mainBox {
+			width:780px;
+			height:100%;
+			margin-left:auto;
+			margin-right:auto;
+			margin-bottom:30px;
+			margin-top:20px;
+			background-color:#fff;
+			padding:1px 20px 15px 20px;
+			border-left:2px solid #669900;
+			border-bottom:2px solid #669900;
+			border-right:2px solid #669900;
+			border-top:2px solid #669900;
+		}
+		
+			#leftColumn {
+				width:560px;
+				height:100%;
+				background-color:#237f1a;
+				float:left;
+				margin-top:17px;
+				margin-right:20px;
+			}
+			
+				.containerContentLeftColumn {
+					width:540px;
+					height:100%;
+					background-color:#fff;
+					margin-left:auto;
+					margin-right:auto;
+					padding-bottom:20px;
+					margin:10px 10px;
+					border:2px solid #999999;
+				}
+				
+					.numeCategorieProdus {
+						width:540px;
+						padding-top:20px;
+					}
+					
+					.numeCategorieProdus h3 {
+						margin:0;
+						padding:0;
+						padding-top:20px;
+						padding-left:25px;
+						color:#0b470b;
+						font-size:18px;
+					}
+					
+						.numeCategorieProdus h3 a {
+							color:#0b470b;
+							text-decoration:none;
+						}
+						
+						.numeCategorieProdus h3 a:hover {
+							text-decoration:underline;
+						}
+						
+						
+						
+					.descriereaProdusului, .paleteCuloriProdus {
+						width:540px;
+					}
+					
+						.descriereaProdusului h3 {
+							margin:0;
+							padding:0;
+							font-size:14px;
+							padding-left:25px;
+							padding-top:25px;
+							color:#c2aa2f;
+						}
+						
+						.paleteCuloriProdus {
+							margin-top:10px;
+						}
+						
+						.paleteCuloriProdus h3 {
+							margin:0;
+							padding:0;
+							font-size:14px;
+							padding-left:25px;
+							padding-top:10px;
+							color:#c2aa2f;
+						}
+						
+					
+						
+						.containerTextDescrierePoza {
+							width:540px;
+							margin-top:20px;
+						}
+						
+							.textDescriere {
+								width:540px;
+							}
+							
+								.textDescriere p {
+									padding-left:25px;
+									padding-right:25px;
+									color:#999;
+								}
+								
+								.textDescriere ul {
+									color:#999;
+									font-weight:bold;
+								}
+								
+								.textDescriere img {
+									margin-left:10px;
+								}
+								
+						.containerImaginiUsi {
+							width:510px;
+							margin-top:25px;
+							padding-bottom:25px;
+							/*text-align:center;*/
+							margin-left:auto;
+							margin-right:auto;
+						}
+						
+							.containerImaginiUsi img {
+								margin-left:5px;
+							}
+							
+								.picUsa {
+									padding:5px 5px;
+									margin-bottom:5px; 
+									background-color:#006600;
+									float:left;
+								}
+								
+							
+							
+								
+							
+								
+							
+						
+						.containerPaleteCulori {
+							width:540px;
+							padding-left:25px;
+							margin-top:15px;
+						}
+						
+							
+						.containerTabelDetaliiTehnice {
+							width:540px;
+							padding-left:25px;
+							margin-top:20px;
+						}
+						
+						.containerTabelDetaliiTehnice td.header {
+								background-color:#0b470b;
+								color:#FFFFFF;
+								font-weight:bold;
+								padding:10px 10px;
+								text-align:center;
+							}
+							
+						.containerTabelDetaliiTehnice td.headerColor {
+								background-color:#237f1a;
+								color:#FFFFFF;
+								font-weight:bold;
+								padding:10px 10px;
+								text-align:center;
+							}
+							
+						.containerTabelDetaliiTehnice td.emptyHeader {
+								background-color:#0b470b;
+								padding:10px 10px;
+							}
+							
+					.noteDetaliiProdus {
+						width:540px;
+						margin-top:20px;
+					}
+
+						
+						.noteDetaliiProdus h3 {
+							margin:0;
+							padding:0;
+							font-size:14px;
+							padding-left:25px;
+							padding-top:10px;
+							color:#c2aa2f;
+						}
+						
+						
+					hr.breakSection {
+						width:500px;
+						margin-left:auto;
+						margin-right:auto;
+						margin-top:20px;
+						margin-bottom:10px;
+						
+					}
+					
+					
+/*--------------------------------------------Right column section------------------------------------------------*/
+
+	#rightColumn {
+		width:200px;
+		height:100%;
+		float:left;
+	}
+
+
+	.headerMeniuRightColumn {
+						width:200px;
+						padding-top:20px;
+					}
+					
+					.headerMeniuRightColumn h3 {
+						margin:0;
+						padding:0;
+						padding-top:20px;
+						color:#0b470b;
+						font-size:18px;
+					}
+					
+	.containerMeniuRightColumn {
+		width:200px;;
+		height:100%;
+		padding-top:15px;
+	}
+	
+		.containerMeniuRightColumn ul {
+			width:100px;
+			display:inline;
+			margin:0;
+			padding:0;
+			font-weight:bold;
+			color:#237f1a;
+			list-style:none;
+		}
+		
+			.containerMeniuRightColumn ul li {
+				display:inline;
+		}
+		
+			.containerMeniuRightColumn ul li a{
+				color:#237f1a;
+				text-decoration:none;
+		}
+		
+			.containerMeniuRightColumn ul li a:hover{
+				color:#237f1a;
+				text-decoration:underline;
+		}
+		
+		hr.liMeniuRight {
+			background-color:#237f1a;
+			color:#237f1a;
+		}
+		
+		.headerMeniuRightColumnGalerieFoto {
+			width:200px;
+			padding-top:20px;
+		}
+			
+			.headerMeniuRightColumnGalerieFoto h3 {
+						margin:0;
+						padding:0;
+						padding-top:20px;
+						color:#c2aa2f;
+						font-size:16px;
+					}
+					
+		.containerImaginiGalerieFotoRightColumn {
+			width:200px;
+			height:100%;
+			margin-top:20px;
+			margin-bottom:15px;
+		}
+		
+			a.linkToateImaginile {
+				font-weight:bold;
+				color:#c2aa2f;
+				padding:3px 3px;
+				text-decoration:none;
+			}
+			
+			a.linkToateImaginile:hover {
+				text-decoration:underline;
+			}
+		
+			.imagineGalerieFotoRightColumn {
+				width:60px;
+				height:99px;
+				margin-right:3px;
+				margin-bottom:3px;
+				background-color:#c2aa2f;
+				float:left;
+			}
+			
+				.imagineGalerieFotoRightColumn img {
+					padding:5px 5px;
+				}
+				
+				
+				.imagineGalerieFotoRightColumnDecupaje {
+				width:60px;
+				height:132px;
+				margin-right:3px;
+				margin-bottom:3px;
+				background-color:#c2aa2f;
+				float:left;
+			}
+			
+				.imagineGalerieFotoRightColumnDecupaje img {
+					padding:5px 5px;
+				}
+				
+				
+				
+/*-----------------------------------Sectiune footer-------------------------------------------------*/	
+
+#footerBackground {
+	width:100%;
+	height:469px;
+	background:url(../images/backgrounds/backgrpund_footer.jpg) repeat-x;
+}
+
+#containerFooterContent {
+	width:810px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:15px;
+	
+}
+
+	.footerContent {
+		width:246px;
+		margin-right:20px;
+		color:#fff;
+		float:left;
+	}
+	
+		.footerContent p {
+			margin:0;
+			padding:0;
+		}
+	
+		.footerContent img {
+			width:90px;
+			height:90px;
+			background-color:#fbce03;
+			padding:5px 5px;
+			float:left;
+			margin:0 12px 12px 0;
+		}	
+		
+#backgroundContainerDevelopedBy {
+	width:100%;
+	height:100%;
+	background-color:#0b470b;
+}
+
+	#containerDevelopedBy {
+		width:810px;
+		margin-left:auto;
+		margin-right:auto;
+		padding-top:15px;
+		padding-bottom:15px;
+		text-align:center;
+	}
+	
+		#containerDevelopedBy ul {
+			display:inline;
+			list-style:none;
+			margin:0;
+			padding:0;
+			color:#fff;
+		}
+		
+			#containerDevelopedBy ul li {
+				display:inline;
+			}
+			
+				#containerDevelopedBy ul li a {
+					color:#fff;
+					font-weight:bold;
+					text-decoration:none;
+				}
+				
+				#containerDevelopedBy ul li a:hover {
+					text-decoration:underline;
+				}
+				
+				
+	.containerNavigatie {
+		width:520px;
+		padding-top:20px;
+		margin-left:10px;
+	}
+	
+		.containerNavigatie a {
+			font-weight:bold;
+			color:#006600;
+			text-decoration:none;
+		}
+		
+		.containerNavigatie a:hover {
+			text-decoration:underline;
+		}
+		
+		
+.containerPicsNoRightMenu {
+	width:690px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+	.containerPicsNoRightMenu img {
+		float:left;
+		background-color:#006600;
+		padding:5px 5px;
+		margin-right:10px;
+		margin-bottom:10px;
+	}
+	
+	
+.textDescriereCopertine {
+	width:690px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+	.textDescriereCopertine p {
+		color:#999;
+	}
+	
+		.textDescriereCopertine ul {
+			color:#999;
+		}
+		
+		
+.containerPicsPortiGaraj {
+	width:350px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	float:left;
+}
+
+	.containerPicsPortiGaraj img {
+		background-color:#006600;
+		padding:5px 5px;
+		margin-right:10px;
+		margin-bottom:10px;
+		margin-left:25px;
+		
+	}	
+	
+.textPortiGaraj {
+	width:400px;
+	float:left;
+	margin-top:20px;
+	padding-left:20px;
+}
+
+	.textPortiGaraj p, .textPortiGarajSmallPics p {
+		margin:0;
+		padding:0;
+		color:#999;
+	}
+	
+	.textPortiGaraj ul, .textPortiGarajSmallPics ul {
+		color:#999;
+	} 
+	
+
+
+.picBigPortiGaraj {
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.containerPicsSmallPortiGaraj {
+	width:200px;
+	float:left;
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:5px;
+}
+
+	.containerPicsSmallPortiGaraj img {
+		background-color:#006600;
+		padding:5px 5px;
+		margin-right:10px;
+		margin-bottom:10px;
+		margin-left:25px;
+	}
+	
+.textPortiGarajSmallPics {
+	width:200px;
+	float:left;
+	margin-top:20px;
+	padding-left:60px;
+}
+
+	.textPortiGarajSmallPics ul {
+		margin:0;
+		padding:0;
+	}
+	
+		.textPortiGarajSmallPics ul li {
+			padding-bottom:10px;
+		}
+
+	
+	
